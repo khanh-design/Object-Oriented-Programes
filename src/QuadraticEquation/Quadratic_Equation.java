@@ -1,9 +1,9 @@
 package QuadraticEquation;
 
 public class Quadratic_Equation {
-    double a;
-    double b;
-    double c;
+    private double a;
+    private double b;
+    private double c;
 
 
     public Quadratic_Equation(double a, double b, double c) {
