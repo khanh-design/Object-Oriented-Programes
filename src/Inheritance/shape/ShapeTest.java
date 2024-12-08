@@ -1,6 +1,4 @@
-package Inheritance;
-
-import Access_Modifire.Circle1.Circle;
+package Inheritance.shape;
 
 public class ShapeTest {
     public static void main(String[] args) {

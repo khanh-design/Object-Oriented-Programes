@@ -1,7 +1,9 @@
-package Inheritance;
+package Inheritance.cricle;
 
 
-public class circle extends Shape{
+import Inheritance.shape.Shape;
+
+public class circle extends Shape {
     private double radius = 1.0;
     public circle() {}
 

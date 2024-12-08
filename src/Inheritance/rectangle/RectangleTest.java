@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.rectangle;
 
 public class RectangleTest {
     public static void main(String[] args) {

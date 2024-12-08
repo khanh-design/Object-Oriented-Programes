@@ -1,4 +1,4 @@
-    package Inheritance;
+    package Inheritance.shape;
 
     public class Shape {
         private String color = "green";

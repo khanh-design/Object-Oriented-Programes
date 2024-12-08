@@ -1,6 +1,8 @@
-package Inheritance;
+package Inheritance.rectangle;
 
-public class Rectangle extends Shape{
+import Inheritance.shape.Shape;
+
+public class Rectangle extends Shape {
     private double width = 5;
     private double height = 5;
 
