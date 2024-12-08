@@ -1,16 +1,23 @@
 package Inheritance.rectangle;
 
+
 import Inheritance.shape.Shape;
 
 public class Rectangle extends Shape {
-    private double width = 5;
-    private double height = 5;
+    private double width = 1.0;
+    private double length = 1.0;
 
     public Rectangle() {}
-    public Rectangle(double width, double height, String color, boolean filled) {
-        super (color, filled);
+
+    public Rectangle(double width, double length) {
         this.width = width;
-        this.height = height;
+        this.length = length;
+    }
+
+    public Rectangle(double width, double length, String color, boolean filled) {
+        super(color, filled);
+        this.width = width;
+        this.length = length;
     }
 
     public double getWidth() {
@@ -21,26 +28,28 @@ public class Rectangle extends Shape {
         this.width = width;
     }
 
-    public double getHeight() {
-        return height;
+    public void setLength(double length) {
+        this.length = length;
     }
 
-    public void setHeight(double height) {
-        this.height = height;
+    public double getLength() {
+        return length;
     }
 
     public double getArea() {
-        return width * height;
+        return width * this.length;
     }
 
     public double getPerimeter() {
-        return (width + height) / 2;
+        return 2 * (width + this.length);
     }
 
-    @Override
     public String toString() {
-        return "A rectangle width: " + getWidth() + " heght: " + getHeight()
-                + "\n"+ "and area " + getArea() + "\n" + " perimeter " + getPerimeter();
+        return "A Rectangle with width="
+                + getWidth()
+                + " and length="
+                + getLength()
+                + ", which is a subclass of "
+                + super.toString();
     }
-
 }
