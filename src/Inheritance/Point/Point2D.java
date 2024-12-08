@@ -1,4 +1,4 @@
-package Point;
+package Inheritance.Point;
 
 public class Point2D {
     private float x;

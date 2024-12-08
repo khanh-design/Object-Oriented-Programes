@@ -1,4 +1,4 @@
-package Point1;
+package Inheritance.Point1;
 
 public class PointTest {
     public static void main(String[] args) {

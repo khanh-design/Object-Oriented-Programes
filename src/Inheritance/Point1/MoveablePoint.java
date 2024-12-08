@@ -1,4 +1,4 @@
-package Point1;
+package Inheritance.Point1;
 
 public class MoveablePoint extends Point {
     private float xSeep = 0.0f;

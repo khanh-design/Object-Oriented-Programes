@@ -1,4 +1,4 @@
-package Point1;
+package Inheritance.Point1;
 
 public class Point {
     private float x = 0.0f;

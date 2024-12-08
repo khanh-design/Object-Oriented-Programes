@@ -1,4 +1,4 @@
-package Point;
+package Inheritance.Point;
 
 public class Point3D extends Point2D{
     private float z;
