@@ -1,9 +1,11 @@
 package Inheritance.square;
 
 import Inheritance.rectangle.Rectangle;
-import Inheritance.shape.Shape;
+import Inheritance.resizeable.Resizeable;
 
-public class Square extends Rectangle {
+public class Square extends Rectangle implements Resizeable {
+    private double side;
+
     public Square() {}
 
     public Square(double side) {
@@ -38,4 +40,9 @@ public class Square extends Rectangle {
                 + ", which is a subclass of "
                 +super.toString();
     }
+
+    public void resize(double percent) {
+        this.side += this.side * percent / 100;
+    }
 }
+
